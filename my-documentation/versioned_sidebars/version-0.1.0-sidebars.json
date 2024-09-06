@@ -1,0 +1,20 @@
+{
+  "tutorialSidebar": [
+    [
+      {
+        "type": "category",
+        "label": "architecture",
+        "items": [
+          "architecture/architecture"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "device-management",
+        "items": [
+          "device-management/device-management"
+        ]
+      }
+    ]
+  ]
+}
