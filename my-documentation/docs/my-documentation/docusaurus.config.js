@@ -8,20 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'RDK Wiki',
-  tagline: 'RDK Features',
+  title: 'RDK Central Wiki',
+  tagline: 'Welcome to RDK Features',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://Ranjeetha-Documentation.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/test2/',
+  baseUrl: '/docx/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Ranjeetha-Documentation',
-  projectName: 'test2',
+  organizationName: 'Ranjeetha-Documentation', // Usually your GitHub org/user name.
+  projectName: 'docx', // Usually your repo name.
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -75,7 +75,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-  title: 'RDK Wiki',
+        title: 'RDK Central Wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -107,7 +107,7 @@ const config = {
         style: 'dark',
         links: [
           {
-  title: 'RDK Wiki',
+            title: 'Docs',
             items: [
               {
                 label: 'RDK Resources',
@@ -116,7 +116,7 @@ const config = {
             ],
           },
           {
-  title: 'RDK Wiki',
+            title: 'Community',
             items: [
               {
                 label: 'Stack Overflow',
@@ -133,7 +133,7 @@ const config = {
             ],
           },
           {
-  title: 'RDK Wiki',
+            title: 'More',
             items: [
               {
                 label: 'Blog',
